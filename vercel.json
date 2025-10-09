@@ -1,7 +1,5 @@
 {
-  "framework": "sveltekit",
-  "buildCommand": "npm ci && npm run build",
-  "outputDirectory": "build",
-  "installCommand": "npm ci",
-  "cwd": "chessv3"
+  "buildCommand": "cd chessv3 && npm ci && npm run build",
+  "outputDirectory": "chessv3/build",
+  "installCommand": "cd chessv3 && npm ci"
 }
