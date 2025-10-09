@@ -1,0 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Chessground styles */
+@import 'chessground/assets/chessground.base.css';
+@import 'chessground/assets/chessground.brown.css';
+@import 'chessground/assets/chessground.cburnett.css';
+
+/* ChessV3 Base Styles */
+body {
+  background-color: #302E2B;
+  color: white;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Chessground custom colors using Tailwind variables */
+:root {
+  --chess-light-square: #EBECD0;
+  --chess-dark-square: #739552;
+  --chess-last-move: rgba(155, 199, 0, 0.41);
+  --chess-selected: rgba(181, 136, 99, 0.5);
+}
