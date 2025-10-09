@@ -1,0 +1,45 @@
+{
+  "name": "chessv3-monorepo",
+  "version": "1.0.0",
+  "description": "Modern Chess Game with SvelteKit",
+  "main": "chessv3/src/app.html",
+  "scripts": {
+    "dev": "cd chessv3 && npm run dev",
+    "build": "cd chessv3 && npm run build",
+    "preview": "cd chessv3 && npm run preview",
+    "check": "cd chessv3 && npm run check",
+    "check:watch": "cd chessv3 && npm run check:watch",
+    "test": "cd chessv3 && npm run test",
+    "lint": "cd chessv3 && npm run lint",
+    "format": "cd chessv3 && npm run format",
+    "install-deps": "cd chessv3 && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mansur-ahmed7/chessv3.git"
+  },
+  "keywords": [
+    "chess",
+    "game",
+    "svelte",
+    "sveltekit",
+    "typescript",
+    "chessground",
+    "chess.js",
+    "tailwind"
+  ],
+  "author": "Mansour Wirya Ahmed <etai08m240479@epu.edu.iq>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mansur-ahmed7/chessv3/issues"
+  },
+  "homepage": "https://github.com/Mansur-ahmed7/chessv3#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  }
+}

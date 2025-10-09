@@ -1,6 +1,11 @@
 {
-  "buildCommand": "cd chessv3 && npm run build",
+  "buildCommand": "cd chessv3 && npm ci && npm run build",
   "outputDirectory": "chessv3/build",
-  "installCommand": "cd chessv3 && npm install",
-  "framework": "sveltekit"
+  "installCommand": "cd chessv3 && npm ci",
+  "framework": "sveltekit",
+  "functions": {
+    "chessv3/build/server/**/*.js": {
+      "runtime": "nodejs18.x"
+    }
+  }
 }
