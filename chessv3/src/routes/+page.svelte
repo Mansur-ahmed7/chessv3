@@ -299,6 +299,9 @@
       <p class="text-sm opacity-70">
         Built with SvelteKit • chess.js • chessground • Tailwind CSS
       </p>
+      <p class="text-sm opacity-60 mt-2 text-center">
+        By Mansour W. Ahmed
+      </p>
     </footer>
   </div>
 </main>
