@@ -14,7 +14,7 @@ A modern, interactive chess game built with SvelteKit, featuring professional so
 
 ## 🚀 Live Demo
 
-Play the game online: [ChessV3 on Vercel](https://chessv3.vercel.app)
+Play the game online: [ChessV3 on Vercel](https://chessv3-orcin.vercel.app)
 
 ## 🛠️ Technology Stack
 
